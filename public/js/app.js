@@ -19429,18 +19429,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
+var _hoisted_1 = {
+  "class": "py-26 bg-white"
+};
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"container px-4 mx-auto\"><div class=\"max-w-lg mx-auto\"><div class=\"text-center mb-8\"><a class=\"inline-block mx-auto mb-6\" href=\"#\"><img src=\"nigodo-assets/logo-icon-nigodo.svg\" alt=\"\"></a><h2 class=\"text-3xl md:text-4xl font-extrabold mb-2\">Sign in</h2></div><form action=\"\"><div class=\"mb-6\"><label class=\"block mb-2 font-extrabold\" for=\"\">Email</label><input class=\"inline-block w-full p-4 leading-6 text-lg font-extrabold placeholder-indigo-900 bg-white shadow border-2 border-indigo-900 rounded\" type=\"email\" placeholder=\"email\"></div><div class=\"mb-6\"><label class=\"block mb-2 font-extrabold\" for=\"\">Password</label><input class=\"inline-block w-full p-4 leading-6 text-lg font-extrabold placeholder-indigo-900 bg-white shadow border-2 border-indigo-900 rounded\" type=\"password\" placeholder=\"**********\"></div><div class=\"flex flex-wrap -mx-4 mb-6 items-center justify-between\"><div class=\"w-full lg:w-auto px-4 mb-4 lg:mb-0\"><label for=\"\"><input type=\"checkbox\"><span class=\"ml-1 font-extrabold\">Remember me</span></label></div><div class=\"w-full lg:w-auto px-4\"><a class=\"inline-block font-extrabold hover:underline\" href=\"#\">Forgot your password?</a></div></div><button class=\"inline-block w-full py-4 px-6 mb-6 text-center text-lg leading-6 text-white font-extrabold bg-indigo-800 hover:bg-indigo-900 border-3 border-indigo-900 shadow rounded transition duration-200\">Sign in</button><p class=\"text-center font-extrabold\">Don’t have an account? <a class=\"text-red-500 hover:underline\" href=\"#\">Sign up</a></p></form></div></div>", 1);
+
+var _hoisted_3 = [_hoisted_2];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.msg), 1
-  /* TEXT */
-  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
-    "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
-      return $setup.msg = $event;
-    })
-  }, null, 512
-  /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.msg]])], 64
-  /* STABLE_FRAGMENT */
-  );
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("section", _hoisted_1, _hoisted_3);
 }
 
 /***/ }),
